@@ -46,15 +46,13 @@ python main.py --data chameleon
 
 Hyperparameters for the main script are summarized as follows:
 - `gpu`: index of a GPU to use.
-- `seed`: random seed (any integer).
+- `seed`: a random seed (any integer).
 - `data`: name of a dataset.
-- `verbose`: print details while running the experiment.
 - `epochs`: number of iterations to train.
-- `trn-ratio`: ratio of train nodes.
-- `pos-class`: number of positive classes.
-- `patience`: patience value for iteration control.
-- `noise-ratio`: ratio of randomly added edges.
-- `layers`: number of layers
-- `units`: number of hidden units
-- `iteration`: number of iterations
-- `prior`: whether the class prior is "known" or "unknown"
+- `val-ratio`: ratio of edges to use in validation.
+- `test-ratio`: ratio of edges to use in test.
+- `verbose`: print details while running the experiment if set to 'y'.
+- `early-stop`: patience number for early stop.
+- `layers`: number of layers in GCN link predictor.
+- `units`: number of units in GCN link predictor.
+- `layers`: number of iterations.
