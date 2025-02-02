@@ -55,4 +55,4 @@ Hyperparameters for the main script are summarized as follows:
 - `early-stop`: patience number for early stop.
 - `layers`: number of layers in GCN link predictor.
 - `units`: number of units in GCN link predictor.
-- `layers`: number of iterations.
+- `iteration`: number of iterations.
