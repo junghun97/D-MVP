@@ -1,10 +1,5 @@
 """
 Accurate Graph-based Multi-Positive Unlabeled Learning via Disentangled Multi-view Feature Propagation
-Authors:
-- Junghun Kim (bandalg97@snu.ac.kr), Seoul National University
-- Ka Hyun Park (kahyunpark@snu.ac.kr), Seoul National University
-- Hoyoung Yoon (crazy8597@snu.ac.kr), Seoul National University
-- U Kang (ukang@snu.ac.kr), Seoul National University
 """
 
 """
